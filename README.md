@@ -71,15 +71,6 @@ To view a live example, **[click here](https://zahidali.me)**
 - 🔃 Create a new pull request.
 
 
-## Using custom domain
-
-You can edit the CNAME file in the root folder of this repo. You can use GitHub pages to host this website. More information on how to host your website using GitHub pages is available in the [documentation](https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site).
-
-Please do leave a star if you found this helpful!
-
-Happy coding!
-
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
