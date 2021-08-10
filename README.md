@@ -42,8 +42,8 @@ A portfolio website that can be used to show your projects and other information
 ✔️ Experience\
 ✔️ Projects \
 ✔️ Skills \
-✔️ Resume
-✔️ Contact Info 
+✔️ Resume \
+✔️ Contact Info \ 
 
 To view a live example, **[click here](https://zahidali.me)**
 
