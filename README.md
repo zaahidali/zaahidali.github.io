@@ -1,7 +1,7 @@
 # Personal Portfolio Website
 
 
-Hosted with ❤ by GitHub  
+Hosted with ❤ by **GitHub**  
 
 A portfolio website that can be used to show your projects and other information.
 
