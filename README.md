@@ -1,11 +1,10 @@
-# Personal Website 
+# Personal Portfolio Website ⚡️ 
 
 
 Hosted with ❤ by **GitHub**  
 
 A portfolio website that can be used to show your projects and other information.
 
-# Personal Portfolio ⚡️ 
 > “When you do things from your soul, you feel a river moving in you, a joy.”
 >> ~Rumi
 
