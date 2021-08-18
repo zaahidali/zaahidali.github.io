@@ -42,7 +42,7 @@ A portfolio website that can be used to show your projects and other information
 ✔️ Projects \
 ✔️ Skills \
 ✔️ Resume \
-✔️ Contact Info \ 
+✔️ Contact Info 
 
 To view a live example, **[click here](https://zahidali.me)**
 
