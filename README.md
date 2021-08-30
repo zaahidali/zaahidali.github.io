@@ -78,6 +78,6 @@ To view a live example, **[click here](https://zahidali.me)**
 
 # Contributing 💡
 
-If you can help us with other options. Please don't hesitate to open an [pull request](https://github.com/zaahidali/zaahidali.github.io/pulls) or [issue](https://github.com/zaahidali/zaahidali.github.io/issues).
+If you can help us to add other pages. Please don't hesitate to open an [pull request](https://github.com/zaahidali/zaahidali.github.io/pulls) or [issue](https://github.com/zaahidali/zaahidali.github.io/issues).
 
 
