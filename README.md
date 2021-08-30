@@ -14,14 +14,7 @@ A portfolio website that can be used to show your projects and other information
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://zaahidali.github.io/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-<!-- ### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="https://zahidali.me" target="_blank"><img src="abc.gif">
-  </a>
-  </kbd>
-</p> -->
-
+<!-- Website preview code here -->
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
@@ -47,6 +40,15 @@ A portfolio website that can be used to show your projects and other information
 <!-- ❌ Blog Section  (Will be added soon)  -->
 
 To view a live example, **[click here](https://zahidali.me)**
+
+<!-- ### Website Preview
+<p align="center"> 
+  <kbd>
+    <a href="https://zahidali.me" target="_blank"><img src="abc.gif">
+  </a>
+  </kbd>
+</p> -->
+
 
 ## Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
