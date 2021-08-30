@@ -37,7 +37,6 @@ A portfolio website that can be used to show your projects and other information
 ✔️ Resume \
 ✔️ Contact Info \
 ✔️ Blog Section
-<!-- ❌ Blog Section  (Will be added soon)  -->
 
 To view a live example, **[click here](https://zahidali.me)**
 
