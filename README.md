@@ -5,7 +5,7 @@ Hosted with ❤ by **GitHub**
 
 A portfolio website that can be used to show your projects and other information.
 
-> “When you do things from your soul, you feel a river moving in you, a joy.”
+> “Let the beauty of what you love be what you do.”
 >> ~Rumi
 
 > https://zahidali.me
