@@ -8,7 +8,7 @@ A portfolio website that can be used to show your projects and other information
 > “Let the beauty of what you love be what you do.”
 >> ~Rumi
 
-> https://zahidali.me
+> https://zaahidali.github.io
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://zahidali.me)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://zaahidali.github.io/)
