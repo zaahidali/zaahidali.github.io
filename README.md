@@ -38,7 +38,7 @@ A portfolio website that can be used to show your projects and other information
 ✔️ Contact Info \
 ✔️ Blog Section
 
-To view a live example, **[click here](https://zahidali.me)**
+To view a live example, **[click here](https://zaahidali.github.io/)**
 
 <!-- ### Website Preview
 <p align="center"> 
