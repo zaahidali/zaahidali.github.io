@@ -5,10 +5,10 @@ Hosted with ❤ by **GitHub**
 
 A portfolio website that can be used to show your projects and other information.
 
-> “Let the beauty of what you love be what you do.”
+> “Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray.”
 >> ~Rumi
 
-> https://zaahidali.github.io
+> https://zaahidali.github.ioz
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://zahidali.me)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://zaahidali.github.io/)
