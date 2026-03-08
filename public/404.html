@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zahid Ali</title>
+    <script>
+      // SPA redirect for GitHub Pages — encodes the path into a query param
+      // so index.html can restore it via history.replaceState
+      var l = window.location;
+      l.replace(
+        l.protocol + "//" + l.host + "/?p=" +
+        encodeURIComponent(l.pathname + l.search) + l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
