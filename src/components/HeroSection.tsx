@@ -48,11 +48,28 @@ const HeroSection = () => {
         backgroundSize: '60px 60px'
       }} />
 
-      <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="max-w-6xl mx-auto w-full grid gap-10 md:grid-cols-2 md:gap-12 items-center relative z-10">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4, delay: 0.1 }}
+          className="order-2 flex justify-center pb-6 md:order-2 md:justify-end md:pb-0"
+        >
+          <div className="relative">
+            <div className="h-44 w-44 overflow-hidden rounded-lg border-2 border-primary/30 animate-glow-pulse sm:h-56 sm:w-56 md:h-72 md:w-72">
+              <img src={profileImg} alt="Zahid Ali" className="h-full w-full object-cover" />
+            </div>
+            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 rounded-md border border-border bg-card px-4 py-3 font-mono text-xs md:-bottom-6 md:left-auto md:right-[-1.5rem] md:translate-x-0">
+              <span className="text-primary">$</span> <span className="text-muted-foreground">status:</span> <span className="text-primary">available</span>
+            </div>
+          </div>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4 }}
+          className="order-1 md:order-1"
         >
           <p className="font-mono text-primary text-sm mb-4">
             {"// Hello, World!"}
@@ -99,23 +116,6 @@ const HeroSection = () => {
               className="text-muted-foreground hover:text-primary transition-colors">
               <Mail size={22} />
             </a>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, delay: 0.1 }}
-          className="hidden md:flex justify-center"
-        >
-          <div className="relative">
-            <div className="w-72 h-72 rounded-lg overflow-hidden border-2 border-primary/30 animate-glow-pulse">
-              <img src={profileImg} alt="Zahid Ali" className="w-full h-full object-cover" />
-            </div>
-            {/* Decorative terminal box */}
-            <div className="absolute -bottom-6 -right-6 bg-card border border-border rounded-md px-4 py-3 font-mono text-xs">
-              <span className="text-primary">$</span> <span className="text-muted-foreground">status:</span> <span className="text-primary">available</span>
-            </div>
           </div>
         </motion.div>
       </div>
