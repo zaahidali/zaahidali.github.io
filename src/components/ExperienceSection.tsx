@@ -9,10 +9,11 @@ const experiences = [
     period: "2025 – Present",
     location: "Reykjavik, Iceland",
     points: [
-      "Developing internal scripting tools and add-ins for data analysis and visualization in a pharmaceutical environment.",
+      "Developing and automating internal scripting tools and add-ins in Python and JSL for data analysis and visualization in a pharmaceutical environment.",
       "Building configurable reporting and plotting systems driven by external configuration files.",
       "Refactoring and modularizing large legacy codebases to improve maintainability and scalability.",
       "Designing interactive data filtering interfaces for large-scale datasets.",
+      "Working closely with senior scientists to turn complex research workflows into reusable internal tools.",
     ],
   },
   {
@@ -20,9 +21,11 @@ const experiences = [
     url: "https://codingcops.com/",
     role: "Full Stack Software Engineer",
     points: [
-      "Built and maintained production web applications across front-end and back-end.",
+      "Built and maintained production web applications across front-end and back-end using Go, Rails, React, and TypeScript.",
       "Implemented automated testing pipelines, significantly reducing defect rates.",
       "Developed interactive, responsive user interfaces with modern frameworks.",
+      "Led a small team through refactoring legacy systems and integrating third-party services.",
+      "Worked on healthcare, HR, insurance, and language-learning platforms serving thousands of users.",
     ],
   },
 ];
