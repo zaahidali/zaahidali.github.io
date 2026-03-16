@@ -1,0 +1,12 @@
+export { default as deckGl } from "./deckgl.svg";
+export { default as docker } from "./docker.svg";
+export { default as git } from "./git.svg";
+export { default as go } from "./go.svg";
+export { default as jmp } from "./jmp.svg";
+export { default as jsl } from "./jsl.svg";
+export { default as postgresql } from "./postgresql.svg";
+export { default as python } from "./python.svg";
+export { default as react } from "./react.svg";
+export { default as ruby } from "./ruby.svg";
+export { default as svelte } from "./svelte.svg";
+export { default as typescript } from "./typescript.svg";
