@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github, Brain, GraduationCap } from "lucide-react";
 import projectGanImg from "@/assets/project-gan.jpg";
 import projectQuantumImg from "@/assets/project-quantumlearn.jpg";
+import SectionHeadingLink from "@/components/SectionHeadingLink";
 
 interface Project {
   title: string;
@@ -36,7 +37,7 @@ const projects: Project[] = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-6">
+    <section id="projects" className="scroll-mt-24 py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -45,9 +46,9 @@ const ProjectsSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="mb-2 flex flex-wrap items-center gap-3 font-mono text-3xl font-bold">
-            <span>
+            <SectionHeadingLink id="projects">
               <span className="text-primary">#</span> projects
-            </span>
+            </SectionHeadingLink>
             <span className="rounded-full border border-amber-300/40 bg-amber-400/10 px-3 py-1 text-[11px] font-medium tracking-[0.12em] text-amber-200 shadow-[0_0_20px_rgba(251,191,36,0.08)]">
               [placeholder demos, more projects coming]
             </span>

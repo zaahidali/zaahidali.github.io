@@ -4,6 +4,7 @@ import { Mail, MapPin, Github, Linkedin, ArrowUpRight, Send, Loader2, AlertCircl
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import SectionHeadingLink from "@/components/SectionHeadingLink";
 
 const links = [
   {
@@ -109,7 +110,7 @@ const ContactSection = () => {
     touched[field] && errors[field] ? errors[field] : null;
 
   return (
-    <section id="contact" className="py-24 px-6">
+    <section id="contact" className="scroll-mt-24 py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -118,7 +119,9 @@ const ContactSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-mono text-3xl font-bold mb-2">
-            <span className="text-primary">#</span> contact
+            <SectionHeadingLink id="contact">
+              <span className="text-primary">#</span> contact
+            </SectionHeadingLink>
           </h2>
           <div className="w-16 h-0.5 bg-primary mb-10" />
         </motion.div>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Briefcase, ExternalLink } from "lucide-react";
+import SectionHeadingLink from "@/components/SectionHeadingLink";
 
 const experiences = [
   {
@@ -32,7 +33,7 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-24 px-6 bg-card/30">
+    <section id="experience" className="scroll-mt-24 py-24 px-6 bg-card/30">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -41,7 +42,9 @@ const ExperienceSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-mono text-3xl font-bold mb-2">
-            <span className="text-primary">#</span> experience
+            <SectionHeadingLink id="experience">
+              <span className="text-primary">#</span> experience
+            </SectionHeadingLink>
           </h2>
           <div className="w-16 h-0.5 bg-primary mb-10" />
         </motion.div>

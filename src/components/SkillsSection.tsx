@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import SectionHeadingLink from "@/components/SectionHeadingLink";
 import { skillCategories } from "@/data/skills";
 
 const SkillGlyph = ({
@@ -27,7 +28,7 @@ const SkillGlyph = ({
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="py-24 px-6 bg-card/30">
+    <section id="skills" className="scroll-mt-24 py-24 px-6 bg-card/30">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -36,7 +37,9 @@ const SkillsSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="font-mono text-3xl font-bold mb-2">
-            <span className="text-primary">#</span> skills
+            <SectionHeadingLink id="skills">
+              <span className="text-primary">#</span> skills
+            </SectionHeadingLink>
           </h2>
           <div className="w-16 h-0.5 bg-primary mb-10" />
         </motion.div>
