@@ -70,6 +70,14 @@ const HeroSection = () => {
             Building robust web applications with Python, Go, Rails, Flask, TypeScript & React.
             MS Computer Science student at the University of Iceland, passionate about clean code and scalable architectures.
           </p>
+          <div className="mb-8 max-w-xl rounded-md border border-amber-300/40 bg-amber-400/10 px-4 py-3 shadow-[0_0_24px_rgba(251,191,36,0.08)]">
+            <p className="font-mono text-xs text-amber-200">
+              {"// portfolio status: still in development"}
+            </p>
+            <p className="mt-1 text-sm text-amber-50/90">
+              Parts of this portfolio, including projects and descriptions, may still be updated and refined.
+            </p>
+          </div>
           <div className="flex gap-4 mb-8">
             <Button variant="hero" size="lg" asChild>
               <a href="#projects">view_projects()</a>
