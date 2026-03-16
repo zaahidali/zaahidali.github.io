@@ -2,33 +2,28 @@ import { motion } from "framer-motion";
 import { skillCategories } from "@/data/skills";
 
 const SkillGlyph = ({
-  src,
+  svg,
   size = 14,
   className,
 }: {
-  src: string;
+  svg: string;
   size?: number;
   className?: string;
-}) => (
-  <span
-    aria-hidden="true"
-    className={className}
-    style={{
-      display: "block",
-      width: size,
-      height: size,
-      backgroundColor: "currentColor",
-      WebkitMaskImage: `url(${src})`,
-      WebkitMaskRepeat: "no-repeat",
-      WebkitMaskPosition: "center",
-      WebkitMaskSize: "contain",
-      maskImage: `url(${src})`,
-      maskRepeat: "no-repeat",
-      maskPosition: "center",
-      maskSize: "contain",
-    }}
-  />
-);
+}) => {
+  const markup = svg
+    .replace("<svg ", '<svg width="100%" height="100%" aria-hidden="true" focusable="false" ')
+    .replaceAll('fill="#000"', 'fill="currentColor"')
+    .replaceAll('stroke="#000"', 'stroke="currentColor"');
+
+  return (
+    <span
+      aria-hidden="true"
+      className={className}
+      style={{ display: "block", width: size, height: size, lineHeight: 0 }}
+      dangerouslySetInnerHTML={{ __html: markup }}
+    />
+  );
+};
 
 const SkillsSection = () => {
   return (
@@ -72,7 +67,7 @@ const SkillsSection = () => {
                     >
                       <div className="w-7 h-7 rounded-md bg-background/60 flex items-center justify-center shrink-0">
                         <SkillGlyph
-                          src={skill.icon}
+                          svg={skill.icon}
                           size={14}
                           className="text-muted-foreground group-hover/skill:text-primary transition-colors"
                         />
